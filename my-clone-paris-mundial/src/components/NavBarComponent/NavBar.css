@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:  whitesmoke;
+    color: blue;
+    padding: 10px;
+
+}
+.navbar a {
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    padding: 8px 12px;
+  }
+  
+  .navbar a:hover {
+    color: blue;
+    text-decoration: underline;
+  }
