@@ -1,0 +1,47 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #0064ff;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ .mundial-logo {
+    display: flex;
+    width: 150px;
+    align-items: center;
+}
+
+.paris-link {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 8px;               
+    text-decoration: none;
+    width: fit-content;
+  }
+  
+  .paris-logo {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+  }
+  
+  .paris-text {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;       
+    text-align: left;
+    margin: 0;
+  }
+  
+  .paris-link:hover .paris-text {
+    text-decoration: underline;
+  }

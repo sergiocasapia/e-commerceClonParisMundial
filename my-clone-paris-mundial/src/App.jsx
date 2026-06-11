@@ -3,20 +3,21 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Header from './components/HeaderComponent/Header.jsx'
+
 
 function App() {
   const [count, setCount] = useState(0)
-
   return (
+   
     <>
+  
     <div className="app-container">
-      <Header />
-      <NavBar />
+      <Header/>
       <main>
-        <SearchBar />
-        <CardList />
+
       </main>
-      <Footer />
+
     </div>
     </>
   )
