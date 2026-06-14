@@ -1,0 +1,24 @@
+.footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer-horizontal {
+    display: flex;
+    list-style:  none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.footer-horizontal a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-horizontal a:hover {
+    color: #006AFF;
+    text-decoration: underline;
+}

@@ -17,7 +17,7 @@ function Header() {
         <div className="logo-container">
             <a href="https://paris.cl" target="_blank" rel="noopener noreferrer" className="paris-link">
             <img src={logoParis} alt="Almacenes Paris" className="paris-logo"/></a>
-            <p className="paris-text">Almacenes Paris</p>
+            <p className="paris-text">Clon Almacenes Paris</p>
             <a> <img src={logomundial} alt="Logo mundial" className="mundial-logo"/></a>
         </div>
         <div>

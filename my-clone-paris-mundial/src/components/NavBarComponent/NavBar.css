@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-between;
     background-color:  whitesmoke;
-    color: blue;
+    color: #006AFF;
     padding: 10px;
-
+    font-size: 20px;
 }
 .navbar a {
     cursor: pointer;
@@ -14,6 +14,6 @@
   }
   
   .navbar a:hover {
-    color: blue;
+    color: #006AFF;
     text-decoration: underline;
   }
