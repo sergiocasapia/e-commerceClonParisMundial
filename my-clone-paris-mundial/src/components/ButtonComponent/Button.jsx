@@ -2,7 +2,7 @@ import '../ButtonComponent/Button.css';
 
 function Button(propiedades) {
     return (<button 
-    className= {propiedades.secundario ? "secundario" : "primario"}
+    className= {propiedades.secundario ? "secundario" : propiedades.productcarro ? "product-carro" : "primario"}
     type="button"
     onClick={propiedades.onClick}
     >

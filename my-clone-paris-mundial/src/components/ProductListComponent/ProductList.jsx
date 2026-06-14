@@ -1,4 +1,5 @@
-import ProductCard from '../ProductCardComponent/productCard.jsx'
+import '../ProductListComponent/ProductList.css'
+import ProductCard from '../ProductCardComponent/ProductCard.jsx'
 
 function ProductList({ articulos }) {
   return (
