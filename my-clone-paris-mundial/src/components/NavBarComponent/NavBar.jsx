@@ -1,4 +1,4 @@
-import { navbarcategorias } from '../../../src/mocks/NavBarCategorias.ts';
+import { navbarcategorias } from '../../../src/mocks/NavBarCategorias.js';
 import '../NavBarComponent/NavBar.css';
 
 function NavBar() {

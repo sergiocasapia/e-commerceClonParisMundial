@@ -1,13 +1,13 @@
 .primario {
     font-size: 16px;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     color: white;
     background: #274dc9;
     border: 2px solid transparent;
     transition: border-color 0.3s;
     margin-bottom: 24px;
-  
+
     &:hover {
       border-color: var(--accent-border);
     }
@@ -20,7 +20,7 @@
   .secundario {
     font-size: 16px;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     color: white;
     background: #0448db;
     border: 2px solid transparent;
