@@ -15,9 +15,16 @@ Sitio desplegado: https://sergiocasapia.github.io/e-commerceClonParisMundial/
 
 ## Capturas de pantallas del resultado final
 Header
+<img width="1129" height="131" alt="header" src="https://github.com/user-attachments/assets/64c26be9-3a64-45cd-8022-0ebc4b628218" />
+
 NavBar
+<img width="1125" height="61" alt="navbar" src="https://github.com/user-attachments/assets/220c9a83-fc99-40c5-9604-9c5cd563c450" />
+
 Cardlist
+<img width="553" height="697" alt="cardlist" src="https://github.com/user-attachments/assets/81f28f32-4315-4f8f-ada6-0fafe541cf08" />
+
 Footer
+<img width="1123" height="81" alt="footer" src="https://github.com/user-attachments/assets/9d67f89b-aa3b-4f1e-9627-484555fd1622" />
 
 ## Cómo correr localmente
 Ejecutar : cdm
