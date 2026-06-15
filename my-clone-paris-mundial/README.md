@@ -11,7 +11,7 @@ Sergio Casapia Churata
 Sitio desarrollado como clon visual ecommerce Paris. El objetivo es replicar el ecommerce usando los conocimientos de las clases y material complementario.
 
 ## Demo
-Sitio desplegado: https://github.com/sergiocasapia/e-commerceClonParisMundial
+Sitio desplegado: https://sergiocasapia.github.io/e-commerceClonParisMundial/
 
 ## Capturas de pantallas del resultado final
 Header
