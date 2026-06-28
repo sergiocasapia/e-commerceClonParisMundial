@@ -1,4 +1,4 @@
-import '../ProductCardComponent/ProductCard.css'
+import styles from  '../ProductCardComponent/ProductCard.module.css'
 import Button from '../ButtonComponent/Button.jsx';
 
 const agregaCarro = () => {
@@ -8,12 +8,13 @@ const agregaCarro = () => {
 function ProductCard({ articulo }) {
     return (
       <>
-      <div className="product-card">
-        <img src={articulo.imagen} alt={articulo.descripcion} />
-        <p className="product-marca">{articulo.marca} </p>
-        <p className="product-descripcion">{articulo.descripcion}</p>
-        <p className="product-precio">{articulo.price}</p>
-        { articulo.isSuperDespach ? <p className="product-despacho">⚽Despacho Gratis🏆</p> : <p></p>}
+      <div className={styles['product-card']}>
+        <img src={articulo.thumbnail} alt={articulo.descripcion} />
+        <p className={styles['product-marca']}>{articulo.brand} </p>
+        <p className={styles['product-marca']}>{articulo.title}</p>
+        <p className={styles['product-descripcion']}>{articulo.description}</p>
+        <p className={styles['product-precio']}>{articulo.price}</p>
+        { articulo.isSuperDespach ? <p className={styles['product-despacho']}>⚽Despacho Gratis🏆</p> : <p></p>}
         <Button productcarro titulo="🛒 Agregar al carro" onClick={agregaCarro} />
       </div>
       </>
