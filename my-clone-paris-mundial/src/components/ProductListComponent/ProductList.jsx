@@ -1,6 +1,7 @@
 import styles from '../ProductListComponent/ProductList.module.css'
 import ProductCard from '../ProductCardComponent/ProductCard.jsx'
 import SearchBar from '../SearchBarComponent/SearchBar.jsx'
+import Button from '../ButtonComponent/Button.jsx'
 
 import { useEffect } from "react";
 import { useState } from "react";
@@ -40,7 +41,14 @@ product.title.toLowerCase().includes(busqueda.toLowerCase())
         <SearchBar busqueda={busqueda} onBuscar={setBusqueda} />
     </div>
     <div className={styles['product-list']}>
-      {articulosFiltrados.map((product) => (<ProductCard key={product.id} articulo={product}/>))}
+    {articulosFiltrados.length === 0 ? (
+        <div className={styles['no-results']}>
+          <p>No se encontraron productos para: <strong>"{busqueda}"</strong></p>
+          <Button productcarro titulo="Limpiar búsqueda" onClick={() => setBusqueda("")}/>
+        </div>
+      ) : (
+      articulosFiltrados.map((product) => (<ProductCard key={product.id} articulo={product}/>))
+      )}
     </div>
     </>
   )
