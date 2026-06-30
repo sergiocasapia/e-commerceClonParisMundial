@@ -27,8 +27,8 @@ function ProductList({ articulos }) {
   }, []
 )
 
-if (loading) return <p>Cargando Productos</p>
-if (error) return <p>Hubo un Error</p>
+if (loading) return <p className={styles['loading-catalog']}>Cargando Productos...</p>
+if (error) return <p className={styles['loading-error']}>Hubo un Error: {error}</p>
 
 const articulosFiltrados = products.filter((product) =>
 product.description.toLowerCase().includes(busqueda.toLowerCase()) ||
