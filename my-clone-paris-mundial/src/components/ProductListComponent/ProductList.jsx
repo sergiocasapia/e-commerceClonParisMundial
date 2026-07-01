@@ -28,7 +28,7 @@ function ProductList({ articulos }) {
 )
 
 if (loading) return <p className={styles['loading-catalog']}>Cargando Productos...</p>
-if (error) return <p className={styles['loading-error']}>Hubo un Error: {error}</p>
+if (error) return error.includes('is not valid JSON') ? <p className={styles['loading-error']}>Problema con Carga de productos reintente</p> : <p className={styles['loading-error']}>Error de Sistema escale a Soporte {error}</p>
 
 const articulosFiltrados = products.filter((product) =>
 product.description.toLowerCase().includes(busqueda.toLowerCase()) ||
@@ -46,7 +46,7 @@ product.title.toLowerCase().includes(busqueda.toLowerCase())
           <p>No se encontraron productos para: <strong>"{busqueda}"</strong></p>
           <Button productcarro titulo="Limpiar búsqueda" onClick={() => setBusqueda("")}/>
         </div>
-      ) : (
+      ) : (        
       articulosFiltrados.map((product) => (<ProductCard key={product.id} articulo={product}/>))
       )}
     </div>

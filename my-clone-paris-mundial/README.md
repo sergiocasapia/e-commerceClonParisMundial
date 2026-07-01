@@ -64,3 +64,11 @@ Fase 1:
 /src/components/FooterComponent/Footer.jsx --> utiliza el componente Button.jsx y mock enlacesfooter.js para desplegar menu de opciones complementarias (*) 
 /src/components/ButtonComponent/Button.jsx --> utiliza operacion ternaria anidada para soporte uso de componentes Header.jsx y Footer.jsx
 Fase 2 :
+Esta comprende el uso de API de productos, desplegarlos en formato, validando errores, carga o existencia, informando al usuario en cada evento.
+/src/components/SearchBarComponent/SearchBar.jsx --> Se incorpora para la busqueda de productos
+/src/components/ProductListComponent/ProductList.jsx --> Se modifica incorporando el uso de APÏ de productos. Uso de Hooks useEffect y useState, para manejar la carga y cambio de estados. La logica del control de carga y errores. 
+Traspado a Componente Card, la lista completa o filtrada (Con despliegue exitoso o mensaje no encontro producto, que que reutiliza componente Button)
+Se cambia a uso de estilo module.css
+/src/components/ProductCardComponent/ProductCard.jsx --> Se incorpora promocion de delivery gratis si precio de producto es mayor a 200.00, con mensaje destacado.
+Se reutiliza componente Button, para simular agregar al carro.
+Se cambia a uso de estilo module.css
