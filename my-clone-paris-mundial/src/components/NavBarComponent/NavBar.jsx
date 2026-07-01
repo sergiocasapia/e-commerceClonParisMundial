@@ -7,11 +7,13 @@ function NavBar() {
   }
     return (
       <nav className="navbar">
-      {navbarcategorias.map((cat) => (
-        <a key={cat.id} onClick={() => handleCategoriaClick(cat)}>
-          {cat.categoria}
-        </a>
-      ))}
+        <ul className="navbar-horizontal">
+	          {navbarcategorias.map((cat) => (
+	          <li key={cat.id} onClick={() => handleCategoriaClick(cat)}>
+	             <a>{cat.categoria}</a>
+	          </li>
+	          ))}
+        </ul>
     </nav>
   );
 }
