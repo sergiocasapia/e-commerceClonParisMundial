@@ -17,6 +17,7 @@ Fase 2 : Desarrollo
 Sitio desplegado: https://sergiocasapia.github.io/e-commerceClonParisMundial/
 
 ## Capturas de pantallas del resultado final
+Fase 1 :
 Header
 <img width="1129" height="131" alt="header" src="https://github.com/user-attachments/assets/64c26be9-3a64-45cd-8022-0ebc4b628218" />
 
@@ -28,6 +29,13 @@ Cardlist
 
 Footer
 <img width="1123" height="81" alt="footer" src="https://github.com/user-attachments/assets/9d67f89b-aa3b-4f1e-9627-484555fd1622" />
+
+Fase 2 :
+markdown
+![Loading Exito Carga de Productos](src/assets/imagenes/CargandoProductos.png)
+![Loading Error Carga de Productos](src/assets/imagenes/ErrorCargaProductos.png)
+![SearchBar Buscar Productos](src/assets/imagenes/SearchBarProductos.png)
+![SearchBar No se encontraron Productos](src/assets/imagenes/NoEncontroProductos.png)
 
 ## Cómo correr localmente
 Ejecutar : cdm
